@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/828c421a23.js" crossorigin="anonymous"></script>
+    <title>OSE Item Inventory</title>
+</head>
+<body>
+
+    <div id="app">
+        <header>
+            <h1>OSE Inventory</h1>
+            <nav>
+                <ul>
+                    <li> Item shop </li>
+                    <li> Inventory </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2 class="Inventory-title"> Inventory </h2>
+            <p class="inventory-item"> {{ inventory }}</p>
+            <h2 class="equipment-shop-title"> Equipment Shop</h2>
+            <div class="item-listing" v-for="item in items" :key="items.id">
+                <h3 id="item-title">{{ item.item }}</h2>
+                    <p id="item-weight">Weight: {{ item.weight }}</p>
+                    <button class="btn" v-on:click="addToInventory"><i class="fas fa-plus-circle"></i></button>
+            </div>
+        </main>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="app.js"></script>    
+</body>
+</html>

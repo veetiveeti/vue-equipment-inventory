@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #68b7ff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+/*------------- App Element ------------------*/
+#app {
+  background-color: white;
+  margin: 2em;
+  border-radius: 6px;
+  width: 40%;
+  filter: drop-shadow(0 0 0.75rem rgba(29, 29, 29, 0.103));
+}
+
+/*------------- Header ------------------*/
+
+header {
+  background-color: #02252d;
+  color: white;
+  padding: 2em;
+  margin: 0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+nav {
+    margin-top: 2em;
+}
+
+/*------------- Navigation ------------------*/
+
+ul {
+  display: flex;
+  gap: 2em;
+  list-style: none;
+  padding-left: 0;
+}
+
+/*------------- Item Listing ------------------*/
+
+main {
+  padding: 2em;
+}
+
+/* Inventory section */
+
+.inventory-title {
+    margin-top: 1em; 
+    margin-bottom: 1em;
+  }
+
+/* Equipment Shop section */
+
+.equipment-shop-title {
+  margin-top: 1em; 
+  margin-bottom: 1em;
+}
+
+.item-listing {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: solid 1px;
+  border-color: #333;
+}
+
+#item-weight {
+  align-self: flex-end;
+  margin-right: 0;
+}
+
+.btn {
+    border: none;
+    background: none;
+}
+
+/*------------- SMALL BREAKPOINT ------------------*/
+
+/*------------- App Element ------------------*/
+
+@media only screen and (max-width: 500px) {
+  #app {
+    margin: 1em;
+    width: 92%;
+  }
+}
