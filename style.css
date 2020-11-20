@@ -33,7 +33,7 @@ header {
 }
 
 nav {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 
 /*------------- Navigation ------------------*/
@@ -54,14 +54,14 @@ main {
 /* Inventory section */
 
 .inventory-title {
-    margin-top: 1em; 
-    margin-bottom: 1em;
-  }
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
 /* Equipment Shop section */
 
 .equipment-shop-title {
-  margin-top: 1em; 
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
@@ -82,8 +82,8 @@ main {
 }
 
 .btn {
-    border: none;
-    background: none;
+  border: none;
+  background: none;
 }
 
 /*------------- SMALL BREAKPOINT ------------------*/
