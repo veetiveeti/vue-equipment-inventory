@@ -1,4 +1,4 @@
-# Old-School D&D Item Inventory
+# Old-School D&D Equipment Inventory
 First Vue.js project.
 
 Getting familiar with Vue.js by list rendering an array of dungeoneering equipment, and creating interactivity by a simple add functionality. 
