@@ -29,11 +29,12 @@ var app = new Vue({
     ],
     inventory: 0,
     inInventory: false,
+    activeColor: '#00fffb'
   },
   methods: {
     addToInventory: function () {
       this.inventory += 1;
       inInventory = true;
-    },
-  },
+    }
+  }
 });
